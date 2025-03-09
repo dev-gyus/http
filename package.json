@@ -1,0 +1,16 @@
+{
+  "name": "http-study",
+  "version": "1.0.0",
+  "description": "http 공부",
+  "main": "index.js",
+  "scripts": {
+    "client" : "node ch01/my-client",
+    "server": "node ch01/my-server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
