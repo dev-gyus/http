@@ -17,7 +17,7 @@ const handler = (req, res) => {
   // res.setHeader("Set-Cookie", "sid=1; Secure;"); // 클라이언트가 HTTPS를 사용할때만 쿠키를 보내도록 하는 디렉티브
   // 클라이언트가 HTTP로 요청을 보낼때만 쿠키를 같이 보내도록 하는 디렉티브 (클라이언트에서 js를 통해 쿠키 변조를 하지 못하도록 막는 방법)
   // 쿠키 확인 = document.cookie / 변조 = document.cookie = {name}={value}
-  res.setHeader("Set-Cookie", "sid=1; HttpOnly;");
+  res.setHeader("Set-Cookie", "sid=1; HttpOnly;" );
   res.write("Welcome");
   res.end();
 }
