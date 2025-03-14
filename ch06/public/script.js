@@ -26,7 +26,7 @@ const handleSubmit = async (event) => {
       body: JSON.stringify(jsonData),
     });
     if (!res.ok) {
-      alert('API Error');
+      alert('API Error ');
       return;
     }
     // console.log(await res.text());
