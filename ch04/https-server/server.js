@@ -30,5 +30,5 @@ const options = {
 
 // https 요청 처리가 가능한 서버 객체 생성
 const server = http.createServer(options, handler);
-server.listen(3000, () => console.log(`Listening on port 3000 `));
+server.listen(3000, () => console.log(`Listening on port 3000`));
 
