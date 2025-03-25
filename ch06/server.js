@@ -26,4 +26,4 @@ const handler = (req, res) => {
   static(path.join(__dirname, 'public'))(req, res);
 };
 const server = http.createServer(handler);
-server.listen(3000, () => {console.log('Server started on port 3000 ')});
+server.listen(3000, () => {console.log('Server started on port 3000')});
