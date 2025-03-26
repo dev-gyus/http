@@ -31,7 +31,7 @@ class Downloader {
       }
 
     } catch (error) {
-      console.error(`다운로드 중 오류 발생:`, error);
+      console.error(`다운로드 중 오류 발생: `, error);
     }
   }
 
