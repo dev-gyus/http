@@ -3,3 +3,8 @@
 /ch04/https-server/server.cert
 /ch04/https-server/server.key
 /.lh/
+ch04/https-server/localhost-key.pem
+ch04/https-server/localhost.pem
+ch15/server.key
+ch15/server.csr
+ch15/server.cert
