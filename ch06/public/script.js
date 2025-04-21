@@ -31,7 +31,7 @@ const handleSubmit = async (event) => {
     }
     // console.log(await res.text());
     console.log(await res.json());
-    alert("Success");
+    alert("Success ");
   } catch (error) {
     alert("Network error");
   }
